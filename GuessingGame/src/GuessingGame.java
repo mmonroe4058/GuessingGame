@@ -1,5 +1,5 @@
 /*
- * Name: Justin Fagan
+ * Name: Miriam Monroe
  * Date: 9/27
  * */
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class GuessingGame
 	public static void main(String[]args)
 	{
 		int guess = 0;
-		int answer = (int)(Math.random()*10 + 1);
+		int answer = (int)(Math.random()*100 + 3);
 		boolean isNumber = false;
 		Scanner input = new Scanner(System.in);
 		
