@@ -1,5 +1,6 @@
 /*
  * Name: Justin Fagan
+ * Date: 9/27
  * */
 import java.util.Scanner;
 import java.util.InputMismatchException;
