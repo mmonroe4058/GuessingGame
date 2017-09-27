@@ -1,5 +1,6 @@
 /*
- * Name: Justin Fagan
+ * Name: Miriam Monroe
+ * Title: Guessing Game
  * Date: 9/27
  * */
 import java.util.Scanner;
@@ -10,6 +11,7 @@ public class GuessingGame
 	public static void main(String[]args)
 	{
 		int guess = 0;
+		int amtofguess = 0;
 		int answer = (int)(Math.random()*10 + 1);
 		boolean isNumber = false;
 		Scanner input = new Scanner(System.in);
@@ -24,8 +26,10 @@ public class GuessingGame
 				try
 				{
 					System.out.println("What is your number?");
+					System.out.println("You took" + amtofguess + "guess(es)" );
 					guess = input.nextInt();	
 					isNumber = true;
+					
 				}
 				catch(InputMismatchException e)
 				{
