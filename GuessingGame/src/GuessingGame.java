@@ -32,18 +32,7 @@ public class GuessingGame
 					System.out.println("That was error type" + e);
 				}
 			}
-			
-		/*
-		Scanner input = new Scanner(System.in);
-		System.out.println("What is your name?");
-		String s = input.next();
-		System.out.println("Nice to meet you " + s);
-		System.out.println("What is your age?");
-		String r = input.next();
-		System.out.println("Nice!" + r + "is cool.");
-		*/
 		}
-		
 	}
 }
 
