@@ -1,7 +1,7 @@
 /*
  * Name: Miriam Monroe
  * Title: Guessing Game
- * Date: 9/27
+ * Date: 9/27 
  * */
 import java.util.Scanner;
 import java.util.InputMismatchException;
